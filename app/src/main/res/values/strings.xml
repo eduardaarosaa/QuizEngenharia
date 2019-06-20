@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">EngenhariaSoftware</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_pergunta1">Pergunta1</string>
+    <string name="title_activity_perguntas2">Perguntas2</string>
+    <string name="title_activity_perguntas3">Perguntas3</string>
+    <string name="title_activity_perguntas4">Perguntas4</string>
+    <string name="title_activity_perguntas5">Perguntas5</string>
+    <string name="title_activity_perguntas6">Perguntas6</string>
+    <string name="title_activity_perguntas7">Perguntas7</string>
+    <string name="title_activity_perguntas8">Perguntas8</string>
+    <string name="title_activity_perguntas10">Perguntas10</string>
+    <string name="title_activity_perguntas9">Perguntas9</string>
+    <string name="title_activity_perguntas11">Perguntas11</string>
+    <string name="title_activity_perguntas12">Perguntas12</string>
+    <string name="title_activity_comeco">Comeco</string>
+    <string name="title_activity_comecar">Comecar</string>
+    <string name="title_activity_final">Final</string>
+</resources>

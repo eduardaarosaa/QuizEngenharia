@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.eduarda.engenhariasoftware">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_engenharia"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon_engenharia"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Comecar"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Perguntas1"
+            android:label="@string/title_activity_pergunta1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Perguntas2"
+            android:label="@string/title_activity_perguntas2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Perguntas3"
+            android:label="@string/title_activity_perguntas3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Perguntas4"
+            android:label="@string/title_activity_perguntas4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Perguntas5"
+            android:label="@string/title_activity_perguntas5"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Perguntas6"
+            android:label="@string/title_activity_perguntas6"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Perguntas7"
+            android:label="@string/title_activity_perguntas7"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Perguntas8"
+            android:label="@string/title_activity_perguntas8"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Perguntas10"
+            android:label="@string/title_activity_perguntas10"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Perguntas9"
+            android:label="@string/title_activity_perguntas9"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Perguntas11"
+            android:label="@string/title_activity_perguntas11"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Perguntas12"
+            android:label="@string/title_activity_perguntas12"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Perguntas0"
+            android:label="@string/title_activity_comecar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Final"
+            android:label="@string/title_activity_final"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAAC58"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Perguntas1"
+    tools:showIn="@layout/activity_pergunta1">
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="200dp"
+        android:ems="10"
+        android:inputType="text|textPhonetic"
+        android:text="Questão 2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView2"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="39dp"-->
+        <!--android:layout_marginBottom="32dp"-->
+        <!--android:text="  É um dos clássicos modelos de processo de desenvolvimento de software criado em resposta às fraquezas do modelo em cascata, o mais tradicional. "-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="1.0"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/editText"-->
+        <!--app:layout_constraintVertical_bias="0.0"-->
+
+        <!--/>-->
+
+    <LinearLayout
+        android:id="@+id/configuracoes_lnlEditar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:background="#ff8000"
+        android:foreground="?selectableItemBackground"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  É um dos clássicos modelos de processo de desenvolvimento de software criado em resposta às fraquezas do modelo em cascata, o mais tradicional. "
+            android:textColor="#fff"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="175dp"
+        android:text="De qual modelo o texto está se referindo?"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="195dp" />
+
+    <CheckBox
+        android:id="@+id/opc1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="228dp"
+        android:text="Modelo Cascata"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="26dp" />
+
+    <CheckBox
+        android:id="@+id/opc2"
+        android:layout_width="176dp"
+        android:layout_height="33dp"
+        android:layout_alignEnd="@+id/opc1"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="257dp"
+        android:layout_marginEnd="-42dp"
+        android:text="Modelo Incremental"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="287dp" />
+
+    <CheckBox
+        android:id="@+id/opc3"
+        android:layout_width="175dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="295dp"
+        android:text="Modelo espiral"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="332dp" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="107dp"
+        android:text="Próxima Pergunta"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="402dp" />
+
+    <!--<TextView-->
+    <!--android:id="@+id/msg"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentStart="true"-->
+    <!--android:layout_alignParentTop="true"-->
+    <!--android:layout_marginStart="0dp"-->
+    <!--android:layout_marginTop="413dp"-->
+    <!--android:text="" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btn1"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentStart="true"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_marginStart="30dp"-->
+    <!--android:layout_marginBottom="19dp"-->
+    <!--android:onClick="btn1"-->
+    <!--android:text="Próxima Pergunta" />-->
+
+    <include layout="@layout/botao_finaliza" />
+
+
+</RelativeLayout>
